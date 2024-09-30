@@ -34,6 +34,7 @@ async function blogAccount(e) {
      }
 
      try{
+      
         const addRef = await addDoc(colRef, allDetails)
         console.log('Document written by ' ,addRef.id)
         alert("Successful Added ✅")
